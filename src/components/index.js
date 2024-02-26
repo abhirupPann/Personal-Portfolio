@@ -1,0 +1,7 @@
+export {default as Intro} from "./Intro.jsx"
+export {default as Aboutme} from "./Aboutme.jsx"
+export {default as Footer} from "./Footer.jsx"
+export {default as Navbar} from "./Navbar.jsx"
+export {default as Projects} from "./Projects.jsx"
+export {default as Skills} from "./Skills.jsx"
+export {default as Tech} from "./Tech.jsx"

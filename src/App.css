@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(41, 37, 36);
+  color: white;
+}
+.gradient-text {
+  -webkit-background-clip: text;
+  @apply bg-gradient-to-t h-14 from-blue-800 to-cyan-500 text-transparent;
+}
+.boxshadow {
+  box-shadow: 0 0 5px rgb(6 182 212),
+  0 0 25px rgb(6 182 212),
+  0 0 50px rgb(6 182 212),
+  0 0 100px
+
+}
+.link{
+  @apply text-cyan-500 uppercase tracking-wider text-base font-medium border-2 border-cyan-500 px-4 py-1 rounded-full
+}
+.link:hover{
+  @apply text-white bg-cyan-500 boxshadow
+}
